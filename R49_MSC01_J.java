@@ -1,3 +1,5 @@
-public int nop() {
-  while (true) {}
+public void nop() {
+  while (true) {
+    Thread.yield();
+  }
 }
